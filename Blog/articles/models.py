@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 # Create your models here.
-class articles(models.Model):
+class Article(models.Model):
     title = models.CharField(max_length = 100)
     slug = models.SlugField()
     body = models.TextField()
