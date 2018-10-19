@@ -5,5 +5,5 @@ from . import views
 
 urlpatterns = [
     path('' , views.article_list ),
-    path('?P(<slug>[\w-]+)' , views.article_detail),
+    path('<slug>' , views.article_detail),
 ]
