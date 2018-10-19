@@ -10,6 +10,7 @@
 </head>
 <body>
     <h1>Article List</h1>
+    <br><br>
     <div class="articles">
         {% for i in articles %}
         <div class="article">
@@ -17,6 +18,7 @@
             <h2>{{i.snippet}}</h2>
             <h2>{{i.date}}</h2>
         </div>
+        <br>
         {% endfor %}
     </div>
 </body>
