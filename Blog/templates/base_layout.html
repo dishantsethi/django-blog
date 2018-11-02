@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="wrapper">
-        <h1><a href="{% url 'articles:list' %}"><img src="{% static 'logo.png' %}" alt="djangonautic" /></a></h1>
+        <h1><a href="{% url 'home' %}"><img src="{% static 'logo.png' %}" alt="djangonautic" /></a></h1>
         <nav>
             <ul>
                 {% if user.is_authenticated %}
@@ -20,7 +20,7 @@
                         <button type="submit"> Log Out</button>
                     </form>
                     <li>
-                        <a href="{% url 'accounts:create' %}">Create article</a>
+                        <a href="{% url 'articles:create' %}">Create article</a>
                     </li>
                 </li>
                 {% else %}
