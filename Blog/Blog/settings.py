@@ -25,7 +25,7 @@ SECRET_KEY = 'e=yenu!p58(y$8iii%^6v6!f98ek!1vl(-c5^4)ege$0po2btn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sleepy-sea-59489.herokuapp.com']
 
 
 # Application definition
